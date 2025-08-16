@@ -1,5 +1,4 @@
 import { FaCode, FaRocket, FaTools, FaSpinner } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 const containerVariants = {
   hidden: {},

@@ -8,7 +8,7 @@ interface ParticlesBackgroundProps {
 }
 
 const ParticlesBackground: React.FC<ParticlesBackgroundProps> = ({ darkMode }) => {
-  const particlesInit = useCallback(async (engine: Engine) => {
+  const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
   }, []);
 
